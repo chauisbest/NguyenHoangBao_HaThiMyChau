@@ -1,0 +1,79 @@
+
+body {
+	font-family: Arial, sans-serif;
+}
+.navbar-inner {
+    background: linear-gradient(45deg, #FF7F50, #1E90FF);
+	border: none;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+	padding: 10px 20px;
+	border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand img {
+    height: 70px;
+}
+
+#topMenu button {
+    color: black;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 25px; 
+    font-size: 14px; 
+}
+
+#topMenu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Add space between the buttons */
+#topMenu li + li {
+    margin-left: 15px; /* Add more space between buttons */
+}
+
+		#topMenu {
+			margin-left: auto; /* Pushes the menu to the right */
+		}
+
+		.brand img {
+			height: 50px;
+		}
+		.navbar-search {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+		}
+		.srchTxt {
+			width: 300px;
+			padding: 10px;
+			border: 1px solid #ddd;
+			border-radius: 25px;
+			outline: none;
+			transition: 0.3s;
+		}
+		.srchTxt:focus {
+			box-shadow: 0px 0px 10px rgba(30, 144, 255, 0.5);
+			border-color: #1E90FF;
+		}
+		.btn-primary {
+			background-color: #1E90FF;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 25px;
+			color: #fff;
+			transition: 0.3s;
+		}
+		#myCart img {
+			height: 30px;
+		}
+		@media (min-width: 1200px) {
+    .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+        width: 1344px;
+    }
+}
+	
