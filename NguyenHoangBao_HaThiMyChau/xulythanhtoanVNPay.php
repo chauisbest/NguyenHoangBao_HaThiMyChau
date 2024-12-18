@@ -27,7 +27,7 @@ if (isset($_SESSION['giohang']) && !empty($_SESSION['giohang'])) {
 
 // Cấu hình VNPay
 $vnp_Url = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-$vnp_Returnurl = "http://localhost:3000/wamp64/www/PHP_Thuan_Edit%20-%20Copy/vnpay_return.php";
+$vnp_Returnurl = "http://localhost:3000/wamp64/www/NguyenHoangBao_HaThiMyChau/vnpay_return.php";
 $vnp_TmnCode = "0S8Y52K1"; // Mã website
 $vnp_HashSecret = "C0Q52E27NNPQYTAS8R0J7DPT51ISMWMO"; // Chuỗi bí mật
 
