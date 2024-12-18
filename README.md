@@ -1,5 +1,7 @@
 # NguyenHoangBao_HaThiMyChau
 Thông tin về DB: file DB nằm trong folder DB
+File cấu hình admin : vào folder admin tìm file connect.php
+File cấu hình user : tìm file connect.php 
 Tài khoản đăng nhập :
 - Tài khoản admin :
   + admin1 - Password: 123456 (có quyền thêm , xóa ,sửa)
